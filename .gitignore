@@ -65,3 +65,7 @@ typings/
 
 # VS Code
 .vscode/
+
+# IDEA
+.idea/
+.idea/workspace.xml
