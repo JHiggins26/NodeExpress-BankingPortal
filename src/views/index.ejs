@@ -3,10 +3,15 @@
 <div class="container">
 
     <%- include('summary.ejs', { account: accounts.checking }) %>
+</div>
 
+<div class="container">
     <%- include('summary.ejs', { account: accounts.savings }) %>
+</div>
 
+<div class="container">
     <%- include('summary.ejs', { account: accounts.credit }) %>
+</div>
 
     <h1><%= title %></h1>
 
