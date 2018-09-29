@@ -2,12 +2,12 @@
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
-const data = require('./data');
+//const data = require('./data');
 
 const app = express();
 
 // Can use, but it makes more sense to use the 'data' object to call its own functions.
-//const { accounts, users, writeJSON } = require('./data')
+const { accounts, users, writeJSON } = require('./data')
 
 // view engine setup
 // set up directories
